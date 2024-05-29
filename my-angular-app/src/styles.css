@@ -1,1 +1,15 @@
-/* You can add global styles to this file, and also import other style files */
+.block{
+  border: 1px solid black;
+  padding: 30px;
+}
+
+.up-blocks{
+  display: flex;
+  justify-content: space-between;
+}
+
+.down-blocks{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 32%;
+}
