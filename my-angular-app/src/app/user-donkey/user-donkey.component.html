@@ -1,0 +1,10 @@
+<h2>My donkeys</h2>
+<ul>
+  @for(donkey of userDonkeys; track donkey){
+  <li>
+    <div>
+      <img [src]="donkey.image" [alt]="donkey.name">
+    </div>
+  </li>
+  }
+  </ul>

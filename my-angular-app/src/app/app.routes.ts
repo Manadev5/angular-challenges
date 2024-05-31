@@ -1,10 +1,11 @@
 import { Routes } from '@angular/router';
-import { UserProfileComponent } from './user-profile/user-profile.component';
-import { SignUpComponent } from './sign-up/sign-up.component';
-import { MenuComponent } from './menu/menu.component';
+import { CreateDonkeyComponent } from './create-donkey/create-donkey.component';
+import { HomeComponent } from './home/home.component';
+
 
 export const routes: Routes = [
-  {path: 'home', component: MenuComponent },
-  {path: 'signup', component: SignUpComponent },
-  {path: 'user', component: UserProfileComponent }
+{path: 'create', component: CreateDonkeyComponent},
+{path: 'home', component: HomeComponent},
+{path: '', redirectTo:'home', pathMatch:'full'}
+
 ];

@@ -1,0 +1,21 @@
+<ul >
+
+@for(donkey of donkeyList; track donkey){
+<li>
+
+    <img [src]="donkey.image" [alt]="donkey.name" (mouseenter)="mouseEnter(donkey)" (mouseleave)="mouseLeave()">
+    <p>{{donkey.name}}</p><br>
+    <button (click)="adoptDonkey(donkey)">adopt</button>
+
+
+</li>
+}
+<div>
+@if(oneDonkey){
+  <p>{{oneDonkey.origin}}</p>
+  <p>{{oneDonkey.birthdate}}</p>
+}
+</div>
+
+</ul>
+

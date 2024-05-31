@@ -1,1 +1,25 @@
-/* You can add global styles to this file, and also import other style files */
+.donkeys{
+  display: flex;
+}
+
+aside{
+  border-left: 3px solid black;
+}
+.donkey-list{
+  width: 70%;
+}
+
+.donkey-list ul{
+  display: grid;
+  grid-template-columns: 450px 450px;
+  grid-template-rows: 450px 450px;
+  list-style-type: none;
+}
+
+nav{
+  display: flex;
+  gap: 20px;
+
+}
+
+

@@ -1,0 +1,11 @@
+<form [formGroup]="donkeyForm" (submit)="createDonkey()">
+  <label for="name">name</label><br>
+  <input type="text" name="name" formControlName="name"><br>
+  <label for="origin">origin</label><br>
+  <input type="text" name="origin" formControlName="origin"><br>
+  <label for="bithdate">birthdate</label><br>
+  <input type="text" name="bithdate" formControlName="birthdate"><br>
+  <label for="image">image</label><br>
+  <input type="text" name="image" formControlName="image"><br>
+  <button type="submit">submit</button>
+</form>
